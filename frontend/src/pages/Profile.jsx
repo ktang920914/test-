@@ -30,7 +30,7 @@ const Profile = () => {
         if(data.success === false){
             console.log(data.message)
         }
-        if(data.sucess !== false){
+        if(data.success !== false){
             setCurrentUser(null)
             navigate('/')
         }
